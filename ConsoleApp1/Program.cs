@@ -2,10 +2,10 @@
 {
     class Atleta
     {
-        string nome;
-        string cognome;
+        string nome="";
+        string cognome = "";
         int eta;
-        string sport;
+        string sport = "";
 
         public string Nome
         {
@@ -35,10 +35,10 @@
     }
     class Dipendente
     {
-        string nome;
-        string cognome;
+        string nome = "";
+        string cognome = "";
         int eta;
-        string lavoro;
+        string lavoro = "";
 
         public string Nome
         {
@@ -67,9 +67,9 @@
     }
     class Animale
     {
-        string nome;
-        string colore;
-        string razza;
+        string nome = "";
+        string colore = "";
+        string razza = "";
 
         public string Nome
         {
@@ -94,9 +94,9 @@
     }
     class Veicolo
     {
-        string marca;
-        string modello;
-        string colore;
+        string marca = "";
+        string modello = "";
+        string colore = "";
 
         public string Marca
         {
